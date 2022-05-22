@@ -12,11 +12,17 @@ binding = ActivityMainBinding.inflate(getLayoutInflater());
 setContentView(binding.getRoot());
 TextView tv = binding.sampleText;
 ```
+
+inflate() is static, so we can call it directly.
+And ...
 ...
 ![Screen Shot 2022-05-22 at 8 18 21 PM](https://user-images.githubusercontent.com/67073582/169694747-79ea278e-340d-44cc-ac3f-859c9336e7a1.png)
 
 ...
 ![Screen Shot 2022-05-22 at 8 20 19 PM](https://user-images.githubusercontent.com/67073582/169694810-7408b89b-57db-486a-9bbc-2cbda3e36ca7.png)
+
+...
+![Screen Shot 2022-05-22 at 8 20 19 PM](https://user-images.githubusercontent.com/67073582/169695220-d7a6808f-9cfc-4e02-8f43-402728233290.png)
 
 
 # References
