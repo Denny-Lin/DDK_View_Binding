@@ -2,7 +2,7 @@
 View Binding in Android
 
 # Set build.gradle to enable View Binding
-View Binding is enabled by default after created. </br>
+View Binding is enabled by default after we create a project. </br>
 However, we can disable it to see what is going on.</br>
 
 ### Enable
