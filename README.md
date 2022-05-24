@@ -25,6 +25,9 @@ TextView tv = binding.sampleText;
 This object of ActivityMainBinding is from the file name of activity_main.xml. </br>
 So if we have a xml called result_profile.xml, we can do "import com.example.mynativeandroidapp.databinding.ResultProfileBinding;". </br>
 And then create an object for this xml, such as "private ResultProfileBinding binding2;" </br>
+
+![Screen Shot 2022-05-24 at 11 52 31 PM](https://user-images.githubusercontent.com/67073582/170079072-e59c7dfa-df9a-4b7a-9b9a-a70a70fcd6aa.png)
+
 inflate() is static, so we can call it directly. </br>
 And </br>
 ... </br>
