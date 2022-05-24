@@ -22,7 +22,8 @@ binding = ActivityMainBinding.inflate(getLayoutInflater());
 setContentView(binding.getRoot());
 TextView tv = binding.sampleText;
 ```
-
+This object of ActivityMainBinding is from the file name of activity_main.xml. </br>
+So if we have a xml called result_profile.xml, we can import com.example.mynativeandroidapp.databinding.ResultProfileBinding. </br>
 inflate() is static, so we can call it directly. </br>
 And </br>
 ... </br>
